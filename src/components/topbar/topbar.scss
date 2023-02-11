@@ -19,6 +19,7 @@
     .left {
       display: flex;
       align-items: center;
+      
 
       .logo {
         font-size: 40px;
@@ -28,6 +29,7 @@
         margin-right: 40px;
         @include mobile{
           margin-right: 0px;
+          font-size: 20px;
         }
       }
 
@@ -61,8 +63,13 @@
           font-weight: 500;
           text-decoration: none;
           color: inherit;
+
+          @include mobile{
+            font-size: 5px;
+          }
         }
       }
+      
     }
 
     .right {
